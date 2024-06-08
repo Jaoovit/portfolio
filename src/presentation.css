@@ -1,0 +1,45 @@
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+p, .icon {
+    text-align: right;
+}
+
+h1, h2 {
+    text-align:justify;
+}
+
+a {
+    text-decoration: none;
+    color: #1e293b;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 5px;
+}
+
+.icon1, .icon2, .icon3 {
+    transition: transform 250ms;
+}
+
+.icon1:hover, .icon2:hover, .icon3:hover {
+    transform: translateY(-10px)
+}
+
+@media only screen and (width > 600px) {
+    div {
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+        font-size: 1.5vw;
+    }
+  }
