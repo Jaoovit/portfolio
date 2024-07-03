@@ -1,5 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   font-family: sans-serif;
   color: #1e293b;
   background-color: #f1f5f9;
+}
+
+a {
+  text-decoration: none;
+  color: #1e293b;
 }
