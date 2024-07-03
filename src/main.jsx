@@ -10,9 +10,7 @@ import './index.css'
 {/* Pages */}
 import Home from './pages/Home'
 import Projects from './pages/Projects'
-import Articles from './pages/Articles'
 import Contact from './pages/Contact'
-import About from './pages/About'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -21,9 +19,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route element={<App />}>
           <Route path='/' element={<Home />}></Route>
           <Route path='/projects' element={<Projects />}></Route>
-          <Route path='/articles' element={<Articles />}></Route>
           <Route path='/contact' element={<Contact />}></Route>
-          <Route path='/about' element={<About />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
