@@ -4,10 +4,10 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 {/* Css */}
-import App from './App'
 import './index.css'
 
 {/* Pages */}
+import App from './App'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
