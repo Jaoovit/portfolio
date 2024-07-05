@@ -9,13 +9,13 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div>
-        <div className="flex flex-col items-center px-28 py-9 gap-20 sm:py-28 sm:px-96">
+        <div className="flex flex-col items-center px-9 py-9 gap-20 sm:py-24 sm:px-96">
             <div className="flex flex-col items-center justify-center xl:flex-row xl:items-start xl:gap-24" >
                 <div>
 
                     <div className="flex items-center xl:gap-20">
                         <div>
-                            <img className="w-80 h-80 object-cover border rounded-full shadow-xl hidden sm:block" src="src/assets/profile.jpeg" alt="image description"/>
+                            <img className="object-cover border rounded-full shadow-xl hidden sm:block" src="src/assets/profile.jpeg" alt="image description"/>
                         </div>
                         <div>
                             <h3 className="text-2xl">Hi &#128075; my name is João, I&apos;m a</h3>
