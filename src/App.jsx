@@ -1,9 +1,7 @@
 {/*JSX documents*/}
-import NavBar from './components/Navbar'
+import Home from './pages/Home'
 import Footer from './components/Footer'
-
-{/*Hook to navigate in the pages*/}
-import { Outlet } from 'react-router-dom'
+import Projects from './pages/Projects'
 
 import './App.css'
 import './index.css'
@@ -13,8 +11,8 @@ const App = () => {
 
   return (
     <div>
-      <NavBar />
-      <Outlet />
+      <Home />
+      <Projects />
       <Footer />
     </div>
   )
