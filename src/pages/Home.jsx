@@ -5,7 +5,7 @@ const Home = () => {
     <div className="flex flex-col items-center justify-center min-h-screen px-8 py-16 gap-20 sm:px-24 lg:px-64 xl:px-96">
       <div className="flex flex-col items-center">
         <h3 className="text-3xl sm:text-4xl text-center">Hi &#128075; my name is João, I&apos;m a</h3>
-        <h1 className="text-6xl sm:text-7xl font-bold pt-6 text-center">FULLSTACK DEVELOPER</h1>
+        <h1 className="text-6xl sm:text-7xl font-bold pt-6 text-center">FULL-STACK DEVELOPER</h1>
         <div className="flex justify-center gap-8 text-4xl sm:text-6xl pt-12">
           <a href="https://linkedin.com/in/joão-vitor-oliveira-205498198">
             <FaLinkedin className="transition hover:text-amber-400 hover:-translate-y-2 duration-300" />

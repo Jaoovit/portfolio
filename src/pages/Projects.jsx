@@ -18,12 +18,12 @@ const Projects = () => {
   ];
 
   return (
-    <div className="grid justify-items-stretch pb-20 mx-8 sm:mx-16 lg:mx-32">
+    <div className="grid justify-items-stretch gap-10 pb-20 mx-8 sm:mx-16 lg:mx-32">
       <h1 className="text-5xl justify-self-center font-bold mb-10 text-center">PROJECTS</h1>
       <div className="flex flex-col gap-10">
         {projectData.map((project, index) => (
           <div key={index} className="flex flex-col md:flex-row border p-6 rounded-lg shadow-md">
-            <div className="flex justify-center items-center border border-gray-200 p-4 rounded-md"> {/* Center the image */}
+            <div className="flex justify-center items-center border border-gray-200 p-4 rounded-md">
               <img 
                 src={project.image} 
                 alt={project.title} 
