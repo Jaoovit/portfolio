@@ -13,7 +13,7 @@ const Home = () => {
           <a href="https://github.com/Jaoovit">
             <FaGithub className="transition hover:text-amber-400 hover:-translate-y-2 duration-300" />
           </a>
-          <a href="#">
+          <a href="https://drive.usercontent.google.com/u/0/uc?id=1EhHiNvyEMgfwFY14eZkBTqjmBUyir2Q2&export=download">
             <FaFileAlt className="transition hover:text-amber-400 hover:-translate-y-2 duration-300" />
           </a>
         </div>
