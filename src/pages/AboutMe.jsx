@@ -1,3 +1,5 @@
+import profilePhoto from '../assets/new-profile-photo.jpeg';
+
 const AboutMe = () => {
     return (
       <div className="flex flex-col items-center justify-center min-h-screen gap-12 px-8 py-16 sm:px-24 lg:px-64 xl:px-96">
@@ -20,7 +22,7 @@ const AboutMe = () => {
           </div>
           <div className="flex-shrink-0">
             <img
-              src="src/assets/new-profile-photo.jpeg"
+              src={profilePhoto}
               alt="João Vitor"
               className="rounded max-w-xs w-full sm:w-80 h-auto object-cover"
             />
